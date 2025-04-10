@@ -61,14 +61,13 @@ nav a:hover {
 @media (max-width:700px) {
 	.cabecera {
 		flex-direction: column;
-		background: rgb(218,168,86);
-background: linear-gradient(234deg, rgba(218,168,86,1) 1%, rgba(119,11,16,1) 51%, rgba(255,72,0,0.9612219887955182) 100%);
+		/*background: rgb(218,168,86);
+background: 
+linear-gradient(234deg, rgba(218,168,86,1) 1%, rgba(119,11,16,1) 51%, rgba(255,72,0,0.9612219887955182) 100%);*/
 	}
 
 	.cabecera2 {
-		background: rgb(218,168,86);
-background: linear-gradient(234deg, rgba(218,168,86,1) 1%, rgba(119,11,16,1) 51%, rgba(255,72,0,0.9612219887955182) 100%);
-		margin-top: 300p
+		margin-top: 300px;
 	}
 
 	nav {
@@ -81,7 +80,7 @@ background: linear-gradient(234deg, rgba(218,168,86,1) 1%, rgba(119,11,16,1) 51%
     height: auto;
     border-radius: 2.5px;
   }
-}
+   }
 
 .cabecera2 {
 	margin-top: 150px;
@@ -165,6 +164,7 @@ background: linear-gradient(234deg, rgba(218,168,86,1) 1%, rgba(119,11,16,1) 51%
 }
 
 .last_picture {
+
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -299,7 +299,7 @@ ul {
 	text-align: center;
 }
 
-.mp_photos img {
+.mp_photos img, video {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
@@ -310,7 +310,7 @@ ul {
 	display: table-column;
 }
 
-.mp_photos img:hover {
+.mp_photos img:hover, video:hover {
     transition: all 200ms ease;
 	width: 30%;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); /* Sombra ligera, más suave */
