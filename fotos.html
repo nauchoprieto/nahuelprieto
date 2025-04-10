@@ -116,5 +116,21 @@
 </div>
 </footer>
 
+<script>
+  window.addEventListener('load', function () {
+    const video = document.getElementById('miVideo');
+
+    // Algunos móviles solo permiten autoplay si el video está muteado
+    video.muted = true;
+    video.playsInline = true;
+
+    // Intentar reproducir
+    video.play().catch((error) => {
+      console.log('No se pudo hacer autoplay:', error);
+      // Podés mostrar un botón para que el usuario lo reproduzca manualmente
+    });
+  });
+</script>
+	
 </body>
 </html>
