@@ -355,6 +355,43 @@ ul {
 	width: 40%;
 }
 
+.post {
+    width: 60%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	margin-top: 5%;
+	border-radius: 30px;
+	transition: all 900ms ease;
+}
+
+.post h2 {
+	margin-top: 10px;
+	font-size: 2em;
+	letter-spacing: 2px;
+	color: #ffffff;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif, arial, monospace;
+	font-weight: 500;
+}
+
+.post .date {
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: #d0d0d0;
+	margin-bottom: 20px;
+	font-family: 'Roboto', sans-serif, arial, monospace;
+    font-weight: 600;
+}
+.post .blog_content {
+	font-size: 1em;
+	color: #d0d0d0;
+	font-family: 'Roboto', sans-serif, arial, monospace;
+	font-weight: 600;
+}
+
 .footer_container {
 	display: flex;
 	justify-content: center;
