@@ -73,6 +73,11 @@ linear-gradient(234deg, rgba(218,168,86,1) 1%, rgba(119,11,16,1) 51%, rgba(255,7
 	nav {
 		padding: 10px 0px;
 	}
+
+	.post {
+		width: 100%;
+	}
+
    }
 
 .cabecera2 {
@@ -356,7 +361,7 @@ ul {
 }
 
 .post {
-    width: 80%;
+	width: 80%;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.8);
 	margin-left: auto;
