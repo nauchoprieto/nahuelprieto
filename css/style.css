@@ -240,7 +240,7 @@ ul {
 	margin-right: 10px;
 }
 
-.instagram:hover, .youtube:hover {
+.instagram:hover, .youtube:hover, .fivegames:hover {
 	margin-top: 3%;
 	transform: scale(0.9); /* reduce el tamaño al 90% al hacer hover */
 	/*width: 30px;*/
